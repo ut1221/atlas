@@ -16,6 +16,22 @@ const router = createRouter({
           component: () => import("@/views/index.vue"),
         },
         {
+          path: "server",
+          name: "exec",
+          component: () => import("@/views/server/index.vue"),
+        },
+        {
+          path: "exec",
+          name: "exec",
+          component: () => import("@/views/exec/index.vue"),
+        },
+        {
+          path: "setting",
+          name: "setting",
+          component: () => import("@/views/setting/index.vue"),
+        },
+
+        {
           path: "demo",
           name: "demo",
           component: () => import("@/views/demo/index.vue"),

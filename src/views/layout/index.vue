@@ -67,6 +67,21 @@ const components = {
 // 菜单列表数据
 const menusList = ref([
     {
+        name: "exec",
+        label: "运行服务",
+        icon: "WalletFilled",
+    },
+    {
+        name: "server",
+        label: "节点监控",
+        icon: "WalletFilled",
+    },
+    {
+        name: "setting",
+        label: "其他配置",
+        icon: "WalletFilled",
+    },
+    {
         name: "demo",
         label: "demo",
         icon: "WalletFilled",
